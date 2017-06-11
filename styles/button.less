@@ -1,0 +1,42 @@
+@import "colours";
+
+.button {
+
+    padding: 2rem 4rem;
+    border: 1px solid @colour--brand;
+    border-radius: 3rem;
+
+    background-color: white;
+    color: @colour--brand;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+    transition: all 300ms;
+    outline: none;
+
+    &:hover,
+    &:active {
+
+        background-color: @colour--brand;
+        color: white;
+    }
+
+    &:active {
+
+        background-color: darken(@colour--brand, 10%);
+        color: white;
+
+        transform: scale(0.95);
+    }
+
+    &--tiny {
+
+        padding: 1rem 2rem;
+    }
+
+    @media (min-width: @breakpoint--laptop) {
+
+        padding: 2rem 8rem;
+    }
+}

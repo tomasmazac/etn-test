@@ -1,0 +1,2 @@
+.quick-news{display:flex;flex-wrap:wrap;justify-content:space-between;padding:3rem}.quick-news__time{margin-bottom:1rem;color:#7d7d7d;font-size:1.5rem;text-transform:uppercase}@media (min-width:1024px){.quick-news{align-items:center;justify-content:center}.quick-news__time{margin-right:2rem;margin-bottom:0}}.quick-news__message{margin-bottom:1rem}@media (min-width:1024px){.quick-news__message{margin-right:4rem;margin-bottom:0}}.quick-news__link{color:#e84d0f;text-decoration:none}.quick-news__link:hover{text-decoration:underline}
+/*# sourceMappingURL=quick-news.css.map*/

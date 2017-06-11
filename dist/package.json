@@ -1,0 +1,27 @@
+{
+  "name": "etn-test",
+  "version": "1.0.0",
+  "description": "Implementace testu pro kódery v rámci přijímacího řízení do Etnetery",
+  "main": "index.js",
+  "author": "Tomáš Mazač <tomas.mazac@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomasmazac/etn-test.git"
+  },
+  "devDependencies": {
+    "@pingy/cli": "^0.6.6",
+    "apollo.js": "github:toddmotto/apollo",
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-postcss": "^0.8.0",
+    "jit-grunt": "^0.10.0",
+    "less": "^2.7.2",
+    "lory.js": "^2.2.1",
+    "pixrem": "^3.0.2"
+  }
+}

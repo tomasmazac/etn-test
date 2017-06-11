@@ -1,0 +1,108 @@
+@import "colours";
+
+@slider__button---width: 6rem;
+
+.slider {
+
+    position: relative;
+
+    &__frame {
+
+        position: relative;
+
+        overflow: hidden;
+
+        font-size: 0;
+        line-height: 0;
+        white-space: nowrap;
+    }
+
+    &__slides {
+
+        display: inline-block;
+    }
+
+    &__button {
+
+        position: absolute;
+        top: calc(~'50% - @{slider__button---width}/2');
+
+        display: block;
+
+        cursor: pointer;
+
+        @media (min-width: @breakpoint--laptop) {
+
+            &:hover {
+
+                svg g {
+
+                    fill: @colour--brand;
+                }
+            }
+        }
+
+        svg {
+
+            width: 3rem;
+            padding-right: 0.5rem;
+
+
+            @media (min-width: @breakpoint--mobile-l) {
+
+                width: 4rem;
+            }
+
+            @media (min-width: @breakpoint--laptop) {
+
+                width: 6rem;
+            }
+
+            g {
+
+                fill: @colour--dark-grey;
+
+                transition: all 300ms;
+            }
+        }
+
+        &:active {
+
+            svg g {
+
+                fill: @colour--brand;
+            }
+        }
+
+        &--previous {
+
+            left: 0;
+            transform: rotate(180deg);
+
+            @media (min-width: @breakpoint--mobile-l) {
+
+                left: 2.5rem;
+            }
+
+            @media (min-width: @breakpoint--laptop) {
+
+                left: 8rem;
+            }
+        }
+
+        &--next {
+
+            right: 0;
+
+            @media (min-width: @breakpoint--mobile-l) {
+
+                right: 2.5rem;
+            }
+
+            @media (min-width: @breakpoint--laptop) {
+
+                right: 8rem;
+            }
+        }
+    }
+}
