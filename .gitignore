@@ -3,3 +3,6 @@ node_modules
 dist/styles/*.less
 dist/styles/*.map
 dist/scripts/*.map
+#dist/scripts/*.src.js
+#dist/Gruntfile.js.map
+#dist/Gruntfile.js
