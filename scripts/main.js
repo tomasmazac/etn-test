@@ -19,15 +19,15 @@ function initNavigation() {
     var site = document.querySelector('body');
     var topNav = document.querySelector('.navigation__list');
     var toggle = document.querySelector('.navigation__toggle-button');
-    // var icon = document.querySelector('.header .icon');
+    var icon = document.querySelector('.header .icon');
 
     toggle.addEventListener('click', function () {
 
         site.classList.toggle('body--navigation-active');
         topNav.classList.toggle('navigation__list--active');
 
-        // apollo.toggleClass(icon, 'icon--menu');
-        // apollo.toggleClass(icon, 'icon--close');
+        apollo.toggleClass(icon, 'icon--menu');
+        apollo.toggleClass(icon, 'icon--close');
 
     }, false);
 

@@ -1,4 +1,4 @@
-@import "colours";
+@import "variables";
 
 .slide {
 
@@ -17,6 +17,11 @@
     font-weight: @font-weight--light;
 
     @media (min-width: @breakpoint--mobile-l) {
+
+        padding: 5rem 15vw;
+    }
+
+    @media (min-width: @breakpoint--tablet) {
 
         height: 57rem;
         padding: 12rem 15vw;

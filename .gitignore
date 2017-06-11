@@ -1,2 +1,5 @@
 node_modules
 .idea
+#dist/styles/*.less
+#dist/styles/*.map
+#dist/scripts/*.map

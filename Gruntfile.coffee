@@ -40,6 +40,6 @@ module.exports = (grunt) ->
 
   # Úlohy ######################################################################
 
-  grunt.registerTask 'postcss', ['postcss']
+  grunt.registerTask 'css', ['postcss']
   grunt.registerTask 'concatJs', ['concat:scripts']
   grunt.registerTask 'bs', ['browserSync']

@@ -19,10 +19,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "555a3c2268d0eb1acc0a3c89785d3e22640add3e"
+        "sha": "7f8999d9c20c9f1df0ca24af00e6d91405239d4a"
       }
     ],
-    "outputSha": "1c11df8e1d690e82957cc8f829a0b182633fdeab",
+    "outputSha": "05cb02d850002f4817f0115f6c0a64353bccc3ee",
     "input": "index.html",
     "output": [
       "index.html"
@@ -33,10 +33,10 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "a53b7583147c5f8bcbb0df365d19fe4909643605"
+        "sha": "d188ebcd5c02c51af6b75a79afc35d19a774feb0"
       }
     ],
-    "outputSha": "072a608964c85305345050d73abe2547eb37460e",
+    "outputSha": "203629b45bb58f886614d519d21391a8fda42e83",
     "input": "scripts/main.js",
     "output": [
       "scripts/main.js.map",
@@ -63,7 +63,7 @@
     "inputSha": [
       {
         "file": "styles/abbreviation.less",
-        "sha": "e6e56dae75e790a8f27ac53fbcc0b5de6fc89811"
+        "sha": "8cc4fffb0193d99b1db4c5f109650b5799bdbac1"
       }
     ],
     "outputSha": "ca49a2fb54fffc2c4ffacfd454cf3110d0efcc8f",
@@ -78,10 +78,10 @@
     "inputSha": [
       {
         "file": "styles/article.less",
-        "sha": "34e9dbd5ebcc8ed2cbc61b68b5df0d145ff3ecc0"
+        "sha": "8413a5085d75ea941e22ead48c16d5f506e8066d"
       }
     ],
-    "outputSha": "33a80228fea5cb3ed62257a5b3006cfd595c0f46",
+    "outputSha": "939532095e62d8eac277b1b8cc7afe0f8e4dd52a",
     "input": "styles/article.less",
     "output": [
       "styles/article.css.map",
@@ -93,10 +93,10 @@
     "inputSha": [
       {
         "file": "styles/base.less",
-        "sha": "b8ccfb5a9edbf14ba3ae1d4e3acc2fcf0f4bf8dd"
+        "sha": "3c882e5af5e647f9c7400c003e067ce01cf0e99a"
       }
     ],
-    "outputSha": "8c5a969a16e21be9eb16e75a14fc1b1511932f8e",
+    "outputSha": "eb288d617fe50571f1cf9000607827fd403be786",
     "input": "styles/base.less",
     "output": [
       "styles/base.css.map",
@@ -108,7 +108,7 @@
     "inputSha": [
       {
         "file": "styles/button.less",
-        "sha": "201c07900825427f687ae18f5b5ebf8a48b09998"
+        "sha": "9d15629df49255f8e5c4559188fd97d588155c39"
       }
     ],
     "outputSha": "5446c5c0566774678e637ebcdceb84aab7cdcc45",
@@ -123,7 +123,7 @@
     "inputSha": [
       {
         "file": "styles/caption.less",
-        "sha": "ce454590346b4175b59b48193eaf1356f36dd79a"
+        "sha": "372d16ea8ee0d58c34e9615ba7a46b7a17b1ad4b"
       }
     ],
     "outputSha": "6096b0c6891335bb8cd18b5305f92c9b3efb7b89",
@@ -137,23 +137,8 @@
     "type": "less@2,7,2::map::minify",
     "inputSha": [
       {
-        "file": "styles/colours.less",
-        "sha": "9f4ac9862cbb22000b270f2f247e1b7072a11eae"
-      }
-    ],
-    "outputSha": "5b6bdf5c3af9f22cc94494bfdf0e0374c298c811",
-    "input": "styles/colours.less",
-    "output": [
-      "styles/colours.css.map",
-      "styles/colours.css"
-    ]
-  },
-  {
-    "type": "less@2,7,2::map::minify",
-    "inputSha": [
-      {
         "file": "styles/diagram.less",
-        "sha": "899b2d48eac63fff396ac883ab618d91c046e7a0"
+        "sha": "ffacfc0c4d6f356e0f049912c472c9e72174bbdd"
       }
     ],
     "outputSha": "0da730aed3ceeb5d7996e21ecf66bc64da10d49b",
@@ -168,7 +153,7 @@
     "inputSha": [
       {
         "file": "styles/footer.less",
-        "sha": "f66eddccb2473e01fc245b0f64da3adb1c1ff383"
+        "sha": "9d0ab9ed8d9c1068de0365deadd478031a980fe6"
       }
     ],
     "outputSha": "7163b5f48cb0ab618e240fe5fa1a5332f7d1f2ce",
@@ -183,7 +168,7 @@
     "inputSha": [
       {
         "file": "styles/header.less",
-        "sha": "b404de3919f28f4715d1f060daba9eb9a1971c6b"
+        "sha": "0c6ba9f153e6bd716832a57fe6843f38a044eb37"
       }
     ],
     "outputSha": "a3c0624e159426c40b8937fe611c7e2c6ea88ebb",
@@ -198,10 +183,10 @@
     "inputSha": [
       {
         "file": "styles/icon.less",
-        "sha": "f8d6981f8ce17d597105fdfed86320534139e195"
+        "sha": "7c6b7b9f47b592ddc2a233c0c219c195e00386a0"
       }
     ],
-    "outputSha": "c766f9a9ccfda2fa9ff68b722e58532a76aa661d",
+    "outputSha": "2d23d0424df2e012ee0e93859e5789b916ead678",
     "input": "styles/icon.less",
     "output": [
       "styles/icon.css.map",
@@ -213,62 +198,62 @@
     "inputSha": [
       {
         "file": "styles/main.less",
-        "sha": "d60fa47901243d5b359a13744eb1ba3b95de15d7"
-      },
-      {
-        "file": "styles/slide.less",
-        "sha": "18c9621ef351cf8f1757c86b23e1a511f78fa946"
-      },
-      {
-        "file": "styles/base.less",
-        "sha": "b8ccfb5a9edbf14ba3ae1d4e3acc2fcf0f4bf8dd"
-      },
-      {
-        "file": "styles/navigation.less",
-        "sha": "038042bfacc237e8bae7ff5682051b188f03fe22"
-      },
-      {
-        "file": "styles/quick-news.less",
-        "sha": "f1577d1b2e898b889895f9d632d351359a3b0254"
-      },
-      {
-        "file": "styles/footer.less",
-        "sha": "f66eddccb2473e01fc245b0f64da3adb1c1ff383"
-      },
-      {
-        "file": "styles/header.less",
-        "sha": "b404de3919f28f4715d1f060daba9eb9a1971c6b"
-      },
-      {
-        "file": "styles/slider.less",
-        "sha": "f654c771ee6875c2582fa362ea6f6cdb8fc45ded"
+        "sha": "b62d978640adbffe6b40891c247f223bf92f87ad"
       },
       {
         "file": "styles/icon.less",
-        "sha": "f8d6981f8ce17d597105fdfed86320534139e195"
+        "sha": "7c6b7b9f47b592ddc2a233c0c219c195e00386a0"
+      },
+      {
+        "file": "styles/slide.less",
+        "sha": "c05e7681417eed7371e18bf27e7e0f5ebd2d6f5a"
+      },
+      {
+        "file": "styles/base.less",
+        "sha": "3c882e5af5e647f9c7400c003e067ce01cf0e99a"
+      },
+      {
+        "file": "styles/navigation.less",
+        "sha": "ccd7b00d7323a707d67cba158719315bea113f31"
+      },
+      {
+        "file": "styles/quick-news.less",
+        "sha": "0ca5710c5b7a9df04be899f3521d0ec9f1c4fdd6"
+      },
+      {
+        "file": "styles/footer.less",
+        "sha": "9d0ab9ed8d9c1068de0365deadd478031a980fe6"
+      },
+      {
+        "file": "styles/header.less",
+        "sha": "0c6ba9f153e6bd716832a57fe6843f38a044eb37"
+      },
+      {
+        "file": "styles/slider.less",
+        "sha": "d06996d1a1edaeedd99b1e81924306cda24341c9"
       },
       {
         "file": "styles/abbreviation.less",
-        "sha": "e6e56dae75e790a8f27ac53fbcc0b5de6fc89811"
+        "sha": "8cc4fffb0193d99b1db4c5f109650b5799bdbac1"
       },
       {
         "file": "styles/diagram.less",
-        "sha": "899b2d48eac63fff396ac883ab618d91c046e7a0"
+        "sha": "ffacfc0c4d6f356e0f049912c472c9e72174bbdd"
       },
       {
         "file": "styles/caption.less",
-        "sha": "ce454590346b4175b59b48193eaf1356f36dd79a"
+        "sha": "372d16ea8ee0d58c34e9615ba7a46b7a17b1ad4b"
       },
       {
         "file": "styles/button.less",
-        "sha": "201c07900825427f687ae18f5b5ebf8a48b09998"
+        "sha": "9d15629df49255f8e5c4559188fd97d588155c39"
       },
       {
         "file": "styles/article.less",
-        "sha": "34e9dbd5ebcc8ed2cbc61b68b5df0d145ff3ecc0"
+        "sha": "8413a5085d75ea941e22ead48c16d5f506e8066d"
       }
     ],
-    "outputSha": "0f5ef9c199c554805eed456daae7298abc8bed37",
+    "outputSha": "b2a265fa9c68a52c02822f73e4319c8d0a9ba83b",
     "input": "styles/main.less",
     "output": [
       "styles/main.css.map",
@@ -280,7 +265,7 @@
     "inputSha": [
       {
         "file": "styles/navigation.less",
-        "sha": "038042bfacc237e8bae7ff5682051b188f03fe22"
+        "sha": "ccd7b00d7323a707d67cba158719315bea113f31"
       }
     ],
     "outputSha": "45c01f50a1169aa028efceacc8761b1306a0960f",
@@ -295,7 +280,7 @@
     "inputSha": [
       {
         "file": "styles/quick-news.less",
-        "sha": "f1577d1b2e898b889895f9d632d351359a3b0254"
+        "sha": "0ca5710c5b7a9df04be899f3521d0ec9f1c4fdd6"
       }
     ],
     "outputSha": "97aa79af6054f93a19d59d41fd0407ea4bebbaa3",
@@ -310,10 +295,10 @@
     "inputSha": [
       {
         "file": "styles/slide.less",
-        "sha": "18c9621ef351cf8f1757c86b23e1a511f78fa946"
+        "sha": "c05e7681417eed7371e18bf27e7e0f5ebd2d6f5a"
       }
     ],
-    "outputSha": "344819cbdcfca6e47df043a140ea7574a81091de",
+    "outputSha": "86c614437b45463657edbd86930c4a5858750c6d",
     "input": "styles/slide.less",
     "output": [
       "styles/slide.css.map",
@@ -325,7 +310,7 @@
     "inputSha": [
       {
         "file": "styles/slider.less",
-        "sha": "f654c771ee6875c2582fa362ea6f6cdb8fc45ded"
+        "sha": "d06996d1a1edaeedd99b1e81924306cda24341c9"
       }
     ],
     "outputSha": "896b9a1b5bbce796f27f3192c3c1fa414d49cb7d",
@@ -333,6 +318,21 @@
     "output": [
       "styles/slider.css.map",
       "styles/slider.css"
+    ]
+  },
+  {
+    "type": "less@2,7,2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/variables.less",
+        "sha": "9f4ac9862cbb22000b270f2f247e1b7072a11eae"
+      }
+    ],
+    "outputSha": "ceddaee27667f268aedb599f9ed76da0ffd6bf38",
+    "input": "styles/variables.less",
+    "output": [
+      "styles/variables.css.map",
+      "styles/variables.css"
     ]
   }
 ]
