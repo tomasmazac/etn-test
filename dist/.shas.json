@@ -29,6 +29,36 @@
     ]
   },
   {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "69527a4eac3b0d48fbba4c0bf413735355fa4b0e"
+      }
+    ],
+    "outputSha": "5dc8a3850fe0484d6b07ab80176ed97e01c8409f",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "d188ebcd5c02c51af6b75a79afc35d19a774feb0"
+      }
+    ],
+    "outputSha": "203629b45bb58f886614d519d21391a8fda42e83",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
     "type": "less@2,7,2::map::minify",
     "inputSha": [
       {
@@ -47,21 +77,6 @@
     "type": "less@2,7,2::map::minify",
     "inputSha": [
       {
-        "file": "styles/base.less",
-        "sha": "3c882e5af5e647f9c7400c003e067ce01cf0e99a"
-      }
-    ],
-    "outputSha": "eb288d617fe50571f1cf9000607827fd403be786",
-    "input": "styles/base.less",
-    "output": [
-      "styles/base.css.map",
-      "styles/base.css"
-    ]
-  },
-  {
-    "type": "less@2,7,2::map::minify",
-    "inputSha": [
-      {
         "file": "styles/article.less",
         "sha": "8413a5085d75ea941e22ead48c16d5f506e8066d"
       }
@@ -71,6 +86,21 @@
     "output": [
       "styles/article.css.map",
       "styles/article.css"
+    ]
+  },
+  {
+    "type": "less@2,7,2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/base.less",
+        "sha": "3c882e5af5e647f9c7400c003e067ce01cf0e99a"
+      }
+    ],
+    "outputSha": "eb288d617fe50571f1cf9000607827fd403be786",
+    "input": "styles/base.less",
+    "output": [
+      "styles/base.css.map",
+      "styles/base.css"
     ]
   },
   {
@@ -303,36 +333,6 @@
     "output": [
       "styles/variables.css.map",
       "styles/variables.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/main.js",
-        "sha": "d188ebcd5c02c51af6b75a79afc35d19a774feb0"
-      }
-    ],
-    "outputSha": "203629b45bb58f886614d519d21391a8fda42e83",
-    "input": "scripts/main.js",
-    "output": [
-      "scripts/main.js.map",
-      "scripts/main.js"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "69527a4eac3b0d48fbba4c0bf413735355fa4b0e"
-      }
-    ],
-    "outputSha": "5dc8a3850fe0484d6b07ab80176ed97e01c8409f",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   }
 ]
